@@ -47,7 +47,10 @@ public class Libro {
 	}
 	
 	public void setPaginas(int paginas) {
+
 		this.paginas = new SimpleIntegerProperty(paginas);
+	
+		
 	}
 	
 }
