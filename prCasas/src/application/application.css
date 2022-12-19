@@ -1,26 +1,18 @@
- /*.button{
- 	-fx-background-color:blue;
- 	-fx-font-size: 12pt;
- 	-fx-text-fill:lightblue;
- }
- #panel_Izquierda{
- 	-fx-background-color:lightblue;
- }
- */
+
  #login_screen {
 	-fx-background-color: #abdbe3;
 }
 
 .label {
     /*-fx-font-size: 11pt;*/
-    -fx-text-fill: black;
+    -fx-text-fill: blue;
     -fx-opacity: 0.6;
 }
 
 .table-view {
     -fx-base: #abdbe3;
-    -fx-control-inner-background: #abdbe3;
-    -fx-background-color: #abdbe3;
+    -fx-control-inner-background: #82E0AA;
+    -fx-background-color: #82E0AA;
     -fx-table-cell-border-color: transparent;
     -fx-table-header-border-color: transparent;
     -fx-padding: 5;
@@ -91,7 +83,7 @@
 }
 
 .button:pressed, .button:default:hover:pressed {
-  -fx-background-color: white;
+  -fx-background-color: green;
   -fx-text-fill: #1d1d1d;
 }
 
